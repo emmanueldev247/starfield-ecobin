@@ -42,7 +42,7 @@ The project consists of a single Arduino script handling bin automation and moni
 git clone https://github.com/emmanueldev247/starfield-ecobin.git
 ```
 
-2. Connect the components as per the provided [**Circuit Diagram**](./ecobin-circuit-diagram.jpg).
+2. Connect the components as per the provided [**Circuit Diagram**](./starfield-ecobin-circuit-diagram.jpg).
 3. Ensure necessary libraries (e.g., Servo) are installed.
 4. Upload the code to your Arduino board using the Arduino IDE.
 5. Power ON the system, and the bin will operate automatically.
