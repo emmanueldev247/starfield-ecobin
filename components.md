@@ -1,6 +1,6 @@
 # Components Used:
 
-1. **Arduino Boards:** 1 unit
+1. **Arduino Board:** 1 unit
 2. **Servo Motor:** 1 unit
 3. **Ultrasonic Sensors:** 2 units
 4. **LEDs**

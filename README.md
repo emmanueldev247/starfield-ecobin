@@ -1,12 +1,12 @@
 # EcoBin - Smart Waste Management System
 
-Welcome to EcoBin, a smart waste bin that automates waste disposal and monitoring using ultrasonic sensors, a servo motor, and alert systems. This project promotes hygiene and efficiency in waste management.
+Welcome to EcoBin, a smart waste bin that automates waste disposal and monitoring using ultrasonic sensors, a servo motor, and alert systems. This project promotes hygiene and efficiency in waste management. It was developed by Starfield Montessori School for the STEMITE Zone Fair competition, where it won first place.
 
 ## Features
 
-### 1. Automated Bin Opening
+### 1. Automated Bin Opening & Closing
 
-- **Motion Detection**: The bin automatically opens when an object (waste) is detected within 30 cm.
+- **Motion Detection**: The bin automatically opens when a user approaches the bin and is detected within 30 cm.
 - **Servo Motor Control**: A servo motor opens and closes the bin lid.
 
 ### 2. Bin Level Monitoring
@@ -17,7 +17,7 @@ Welcome to EcoBin, a smart waste bin that automates waste disposal and monitorin
 ### 3. Alert System
 
 - **Buzzer Alarm**: Triggers an alarm when the bin reaches its maximum capacity.
-- **Buzzer Alarm**: Displays the bin status:
+- **LED Indications**: Displays the bin status:
   - Green LED - Power ON Indicator
   - Blue LED - Available Space Indicator
   - Red LED - Full Bin Alert
@@ -30,9 +30,9 @@ The project consists of a single Arduino script handling bin automation and moni
 
 - Main Code: `ecobin.ino`
 - Functions:
-  - `checkDistance()` - Measures distance using ultrasonic sensors.
   - `setup()` - Initializes pins and components.
   - `loop()` - Handles the logic for bin opening, level detection, and alerts
+  - `checkDistance(int var1, int var2)` - Measures distance using ultrasonic sensors.
 
 ## How to Use
 
